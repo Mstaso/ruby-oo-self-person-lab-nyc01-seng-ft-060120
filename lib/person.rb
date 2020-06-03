@@ -10,6 +10,7 @@ class Person
     @name=name
     @bank_account=25
     @happiness=8
+    @hygiene=8
   end  
   
   def happiness

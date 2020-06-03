@@ -62,8 +62,7 @@ class Person
   end  
   
   def call_friend (friend)
-    self.happiness = @happiness + 3
-    friend.happiness = @happiness + 3
+    
     @@all.map do 
             @happiness + 3
           end

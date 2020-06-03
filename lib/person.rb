@@ -41,7 +41,7 @@ class Person
     end
   end  
   def get_paid(salary)
-    salary = rand(10)
+    salary = 100
     @bank_account = salary + @bank_account
   end
 end

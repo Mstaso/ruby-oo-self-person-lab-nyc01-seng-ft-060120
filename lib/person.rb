@@ -54,7 +54,9 @@ class Person
   end
   
   def work_out
-    @happiness += 
+    @happiness += 2
+    @hygiene -= 3
+    return ""
   end  
   
 end

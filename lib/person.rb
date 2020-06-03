@@ -64,9 +64,9 @@ class Person
   def call_friend (friend)
     self.happiness = @happiness + 3
     friend.happiness = @happiness + 3
-    @@all.map do |plant|
-            
-            plant.name
+    @@all.map do 
+            @happiness + 3
+          end
   end  
 end
 

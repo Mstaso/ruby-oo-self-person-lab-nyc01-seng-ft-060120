@@ -13,6 +13,7 @@ class Person
     @bank_account=25
     @happiness=8
     @hygiene=8
+    @@all << self
   end  
   
   def happiness

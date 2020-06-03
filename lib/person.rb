@@ -39,6 +39,8 @@ class Person
     else
       false
     end
+  def get_paid (salary)
+  end
   end
 end
 

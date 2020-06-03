@@ -54,6 +54,7 @@ class Person
   end
   
   def work_out
+    @happiness += 
   end  
   
 end

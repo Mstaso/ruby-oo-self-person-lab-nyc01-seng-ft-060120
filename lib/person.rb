@@ -40,7 +40,7 @@ class Person
       false
     end
   end  
-  def get_paid (salary)
+  def get_paid(salary)
     self.salary = rand(10)
   end
 end

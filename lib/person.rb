@@ -12,7 +12,7 @@ class Person
     @happiness=8
   end  
   
-  def happiness
+  def self.happiness
     if @happiness > 10
       @happiness = 10
     end  

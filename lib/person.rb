@@ -65,7 +65,6 @@ class Person
     self.happiness = @happiness + 3
     friend.happiness = friend.happiness + 3
       return "Hi Felix! It's Stella. How are you?"
-    end
   end  
 end
 

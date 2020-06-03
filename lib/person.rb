@@ -65,7 +65,8 @@ class Person
     self.happiness = @happiness + 3
     friend.happiness = friend.happiness + 3
     if call_friend.instance_of? self
-      return ""
+      return "Hi Felix! It's Stella. How are you?"
+    end
   end  
 end
 

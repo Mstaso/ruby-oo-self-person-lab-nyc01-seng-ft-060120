@@ -33,5 +33,12 @@ class Person
       false
     end
   end  
+  def hygiene?
+    if @hygiene > 7
+      TRUE
+    else
+      false
+    end
+  end
 end
 

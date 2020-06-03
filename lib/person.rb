@@ -64,7 +64,7 @@ class Person
   def call_friend (friend)
     self.happiness = @happiness + 3
     friend.happiness = friend.happiness + 3
-    "Hi #{friend} it's "
+    "Hi #{friend} it's #{self}."
     end
   end  
 end

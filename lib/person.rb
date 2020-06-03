@@ -42,6 +42,7 @@ class Person
   end  
   def get_paid(salary)
     salary = rand(10)
+    salary << self
   end
 end
 

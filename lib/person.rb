@@ -66,3 +66,4 @@ class Person
   end  
 end
 
+binding.pry 

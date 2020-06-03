@@ -43,6 +43,5 @@ class Person
   def get_paid (salary)
     self.salary = rand(10)
   end
-  end
 end
 

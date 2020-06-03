@@ -64,9 +64,7 @@ class Person
   def call_friend (friend)
     self.happiness = @happiness + 3
     friend.happiness = friend.happiness + 3
-    if self.call_friend
-      return "Hi Felix! It's Stella. How are you?"
-    end
+    binding.pry
   end  
 end
 

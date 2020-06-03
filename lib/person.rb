@@ -1,6 +1,6 @@
 # your code goes here
 require 'pry'
-
+@@all = []
 class Person
   attr_reader :name
   attr_accessor :bank_account

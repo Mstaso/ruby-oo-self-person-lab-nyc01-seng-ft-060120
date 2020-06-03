@@ -33,22 +33,28 @@ class Person
       false
     end
   end  
+  
   def clean?
     if @hygiene > 7
       TRUE
     else
       false
     end
-  end  
+  end
+  
   def get_paid(salary)
     salary = 100
     @bank_account = salary + @bank_account
     return "all about the benjamins"
   end
+  
   def take_bath
     self.hygiene = @hygiene + 4
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+  
+  def work_out
+  end  
   
 end
 

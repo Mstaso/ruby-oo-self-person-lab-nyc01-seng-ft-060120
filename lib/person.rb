@@ -33,7 +33,7 @@ class Person
       false
     end
   end  
-  def hygiene?
+  def clean?
     if @hygiene > 7
       TRUE
     else

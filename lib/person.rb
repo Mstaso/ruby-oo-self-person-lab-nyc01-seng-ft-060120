@@ -13,8 +13,9 @@ class Person
   end  
   
   def self.happiness
-    if @happiness <= 10 @happiness <= 10
-      
+    if @happiness < 10
+      @happiness = 10
+    end  
   end
 end
 

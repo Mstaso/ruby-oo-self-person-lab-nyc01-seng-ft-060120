@@ -6,6 +6,7 @@ class Person
   attr_accessor :bank_account
   attr_accessor :happiness
   attr_accessor :hygiene
+  @@all = []
   
   def initialize (name)
     @name=name

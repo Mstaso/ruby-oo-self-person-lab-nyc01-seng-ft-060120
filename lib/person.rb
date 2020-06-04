@@ -77,6 +77,8 @@ def start_conversation (friend, topic)
     self.happiness = @happiness + 1
     friend.happiness = friend.happiness + 1
     "blah blah sun blah rain"
+  elsif topic =! "politics", "weather"  
+  "blah blah blah blah blah"
   end
 end  
 

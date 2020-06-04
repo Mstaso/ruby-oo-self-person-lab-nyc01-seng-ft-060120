@@ -69,7 +69,7 @@ class Person
 
 
 def start_conversation (friend, topic)
-  if topic == politics
+  if topic == "politics"
     self.happiness = @happiness + rand
     friend.happiness = friend.happiness + rand
     "blah blah partisan blah lobbyist"
